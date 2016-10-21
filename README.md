@@ -5,11 +5,11 @@ feed forward loop and TFs-miRNAs composite feed forward loop, random permutation
 
 ### Prerequisites:
 This program require the following python modules: 
-    optparse
-    random
-    sys
-    numpy
-    collections
+
+    1.optparse
+    2.random
+    3.numpy
+    4.collections
 
 ### Required input:
 
