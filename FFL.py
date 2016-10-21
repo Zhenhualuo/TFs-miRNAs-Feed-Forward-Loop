@@ -91,7 +91,7 @@ if __name__ == '__main__':
                       type    = "string")     
 
     parser.add_option('-s', 
-                      help    ='number of random simulations [1000]',
+                      help    ='number of random simulations [default: 1000]',
                       dest    ='sims',
                       default ='1000',
                       type    = "int")
