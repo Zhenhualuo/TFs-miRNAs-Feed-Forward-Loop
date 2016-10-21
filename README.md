@@ -10,7 +10,23 @@ This program require the following python modules:
     2.random
     3.numpy
     4.collections
+### Usage
 
+    Usage: FFL.py [options]
+
+    Options:
+     -h, --help       show this help message and exit
+     -u, --usage      show more info on how to use this script
+     -n NETWORK_FILE  regulatory network file with TFs/miRNAs at first column and
+                      target gene at second column
+     -m M             number of genes for random selection
+     -g G             gene list for random selection
+     -l L             file containing TFs and miRNAs
+     -t TF_MI_GENE    TFs and miRNAs target all coding gene file with TFs/miRNAs
+                      at first column target gene at second column
+     -i TF_MI         file containing fixed TF-miRNA interaction
+     -s SIMS          number of random simulations [default: 1000]
+  
 ### Required input:
 
     All files must be a tab-separated table.
