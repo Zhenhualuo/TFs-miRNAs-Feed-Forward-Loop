@@ -53,4 +53,4 @@ Here's an example, provided the files are in the same directory as this python s
     ./python FFL.py -n network.txt 
 
     2. Include random permutation
-    ./python FFL.py -n network.txt -g 10 -G gene.txt --tm fixed_TFs_miRNAs.txt -t TFs_miRNAs_to_gene.txt -F TFs_miRNAs_regulation.txt -s 1000
+    ./python FFL.py -n network.txt -m 10 -g gene.txt -l fixed_TFs_miRNAs.txt -t TFs_miRNAs_to_gene.txt -i TFs_miRNAs_regulation.txt -s 1000
