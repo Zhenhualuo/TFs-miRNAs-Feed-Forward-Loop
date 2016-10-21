@@ -11,7 +11,7 @@ This program require the following python modules:
     numpy
     collections
 
-Required input:
+### Required input:
 
     All files must be a tab-separated table.
 
@@ -31,7 +31,7 @@ For calculation of actural feed forward loop and random permutation, you MUST pr
   
     5. fixed TFs and miRNAs regulation information with TFs/miRNAs at first column target the miRNAs/TF at second column(-i)
 
-Output files:
+### Output files:
 
   Results will be saved as:
 
@@ -44,6 +44,8 @@ Output files:
     Random permutation loop counts: FFL_random_count.txt
 
     Z score: z_score_out.txt
+    
+### Example
 
 Here's an example, provided the files are in the same directory as this python script:
 
