@@ -1,4 +1,4 @@
-# TFs-miRNAs-Feed-Forward-Loop
+# TFs-miRNAs Feed Forward Loop
 
 This program will calculate and export Transcription factors (TFs) feed forward loop, miRNAs 
 feed forward loop and TFs-miRNAs composite feed forward loop, random permutation.
