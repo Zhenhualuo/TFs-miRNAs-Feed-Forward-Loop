@@ -17,13 +17,13 @@ For calculation of actural feed forward loop and random permutation, you MUST pr
 
     1. network file with TFs/miRNAs at first column target and gene at second column (-n)
   
-    2. gene list for random selection (-G)
+    2. gene list for random selection (-g)
   
-    3. fixed TFs and miRNAs list (--tm)
+    3. fixed TFs and miRNAs list (-l)
   
     4. TFs/miRNAs and all human coding gene regulation information with TFs/miRNAs at first column target the gene at second column (-t)
   
-    5. fixed TFs and miRNAs regulation information with TFs/miRNAs at first column target the miRNAs/TF at second column(--F)
+    5. fixed TFs and miRNAs regulation information with TFs/miRNAs at first column target the miRNAs/TF at second column(-i)
 
 Output files:
 
