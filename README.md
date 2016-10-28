@@ -1,10 +1,10 @@
-# TFs-miRNAs Feed Forward Loop
+# TF-miRNA Feed Forward Loop
 
-This program will calculate and export Transcription factors (TFs) feed forward loop, miRNAs 
+This program will calculate and export Transcription factor (TF) feed forward loop, miRNA 
 feed forward loop and TFs-miRNAs composite feed forward loop, random permutation results.
 
 ### Prerequisites:
-This program require the following python modules: 
+This python program require the following python modules: 
 
     1.optparse
     2.random
