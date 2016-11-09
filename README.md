@@ -29,7 +29,7 @@ This script has been tested in Python 2.7 and require the following python modul
   
 ### Required input:
 
-    All files must be a tab-separated table with sources at the first column and targets at the second column.
+All files must be a tab-separated table with sources at the first column and targets at the second column.
 
 For calculation of actural feed forward loop only, one network file is required:
     
@@ -70,3 +70,6 @@ Here's an example, provided the files are in the same directory as this python s
 
     2. Include random permutation
     ./python FFL.py -n network.txt -m 10 -g gene.txt -l fixed_TFs_miRNAs.txt -t TFs_miRNAs_to_gene.txt -i TFs_miRNAs_regulation.txt -s 1000
+
+### Note
+miRNAs must be provided as standrad miRNAs ID, for example, hsa-miR-122a-5p or hsa-let-7a-5p.
