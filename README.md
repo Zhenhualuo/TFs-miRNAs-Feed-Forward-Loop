@@ -1,15 +1,15 @@
 # TF-miRNA Feed Forward Loop
 
-This program will calculate and export Transcription factor (TF) feed forward loop, miRNA 
-feed forward loop and TFs-miRNAs composite feed forward loop, random permutation results.
+This script will calculate and export Transcription factor (TF) feed forward loops, miRNA 
+feed forward loops, TFs-miRNAs composite feed forward loops and random permutation results.
 
 ### Prerequisites:
-This python program require the following python modules: 
+This script has been tested in Python 2.7 and require the following python modules: 
 
-    1.optparse
-    2.random
-    3.numpy
-    4.collections
+    1.optparse (version 2.3 or later)
+    2.random (version 2.4 or later)
+    3.numpy (version 1.10 or later)
+    4.collections (version 2.5 or later)
 ### Usage
 
     Usage: FFL.py [options]
@@ -29,11 +29,11 @@ This python program require the following python modules:
   
 ### Required input:
 
-    All files must be a tab-separated table.
+    All files must be a tab-separated table with sources at the first column and targets at the second column.
 
-For calculation of actural feed forward loop only:
+For calculation of actural feed forward loop only, one network file is required:
     
-    1. network file with TFs/miRNAs at first column, target the gene at second column
+    1. network file with TFs/miRNAs at the first column, target genes at the second column.
   
 For calculation of actural feed forward loop and random permutation, you MUST provide all following files:
 
@@ -51,15 +51,15 @@ For calculation of actural feed forward loop and random permutation, you MUST pr
 
   Results will be saved as:
 
-    TFs feed forward loop: TF_FFL_output_core.txt
+    1. TFs feed forward loop: TF_FFL_output_core.txt
 
-    miRNAs feed forward loop: miRNA_FFL_output_core.txt
+    2. miRNAs feed forward loop: miRNA_FFL_output_core.txt
 
-    TFs miRNAs composite feed forward loop: TF_miRNAs_composite_FFL_output_core.txt
+    3. TFs miRNAs composite feed forward loop: TF_miRNAs_composite_FFL_output_core.txt
 
-    Random permutation loop counts: FFL_random_count.txt
+    4. Random permutation loop counts: FFL_random_count.txt
 
-    Z score: z_score_out.txt
+    5. Z score: z_score_out.txt
     
 ### Example
 
