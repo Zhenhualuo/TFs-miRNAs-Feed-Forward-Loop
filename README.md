@@ -72,4 +72,4 @@ Here's an example, provided the files are in the same directory as this python s
     ./python FFL.py -n network.txt -m 10 -g gene.txt -l fixed_TFs_miRNAs.txt -t TFs_miRNAs_to_gene.txt -i TFs_miRNAs_regulation.txt -s 1000
 
 ### Note
-miRNAs must be provided as standrad miRNAs ID, for example, hsa-miR-122a-5p or hsa-let-7a-5p.
+miRNAs must be provided as standard miRNAs ID, for example, hsa-miR-122a-5p or hsa-let-7a-5p.
